@@ -1,4 +1,4 @@
- <p align="center">
+<p align="center">
   <img src="assets/00-profile-banner.svg" width="100%" alt="Jessica Edward cybersecurity and red team blue team profile banner"/>
 </p>
 
@@ -7,9 +7,21 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jessicaedward1707&label=PROFILE%20VIEWS&color=C084FC&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-C084FC?style=for-the-badge" alt="Cybersecurity focus"/>
-  <img src="https://img.shields.io/badge/PLATFORM-LINUX-8B5CF6?style=for-the-badge&logo=linux&logoColor=black" alt="Linux platform"/>
+  <img
+    src="https://komarev.com/ghpvc/?username=jessicaedward1707&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge"
+    alt="GitHub profile views"
+    height="28"
+  />
+  <img
+    src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-C084FC?style=for-the-badge"
+    alt="Cybersecurity focus"
+    height="28"
+  />
+  <img
+    src="https://img.shields.io/badge/PLATFORM-LINUX-8B5CF6?style=for-the-badge&logo=linux&logoColor=white"
+    alt="Linux platform"
+    height="28"
+  />
 </p>
 
 <p align="center">
@@ -19,10 +31,9 @@
   <a href="#-04--academic-foundation">Education</a> •
   <a href="#-05--tools-in-my-security-toolkit">Skills</a> •
   <a href="#-06--projects-from-the-lab">Projects</a> •
-  <a href="#-07--from-observation-to-finding">Workflow</a> •
-  <a href="#-08--principles-behind-my-practice">Principles</a> •
-  <a href="#-09--the-skills-im-building-next">Roadmap</a> •
-  <a href="#-12--lets-connect-and-exchange-knowledge">Connect</a>
+  <a href="#-07--my-open-source-footprint">GitHub Stats</a> •
+  <a href="#-08--beyond-the-security-lab">Interests</a> •
+  <a href="#-09--lets-connect-and-exchange-knowledge">Connect</a>
 </p>
 
 ---
@@ -199,6 +210,7 @@ My academic background provides a foundation for understanding applications, dat
 A Python-based network packet analysis application designed to capture and inspect network traffic through a graphical interface.
 
 **Key capabilities**
+
 - Capture and inspect packets from selected network interfaces.
 - Store packet information in an SQLite database.
 - Display detection alerts and packet analytics.
@@ -220,6 +232,7 @@ A Python-based network packet analysis application designed to capture and inspe
 A hands-on lab exploring security event collection and monitoring in a virtualised environment.
 
 **Key activities**
+
 - Explore the roles of the Wazuh manager, indexer, and dashboard.
 - Investigate endpoint agent integration and event collection.
 - Review available security alerts and event-monitoring workflows.
@@ -240,6 +253,7 @@ A hands-on lab exploring security event collection and monitoring in a virtualis
 A practical exercise investigating network communications through packet capture and protocol inspection.
 
 **Key activities**
+
 - Generate test HTTP traffic using command-line tools.
 - Capture traffic and apply display filters.
 - Examine source and destination addresses, ports, and protocols.
@@ -260,6 +274,7 @@ A practical exercise investigating network communications through packet capture
 A practical lab exploring network-based intrusion detection and security event logging.
 
 **Key activities**
+
 - Run Suricata against a selected lab network interface.
 - Inspect EVE JSON event logs.
 - Review generated alerts, classifications, and severity levels.
@@ -280,6 +295,7 @@ A practical lab exploring network-based intrusion detection and security event l
 A controlled networking exercise focused on checking service accessibility and validating firewall behaviour.
 
 **Key activities**
+
 - Identify listening services and exposed ports.
 - Test permitted and blocked connections.
 - Review the behaviour of SSH and web services.
@@ -300,6 +316,7 @@ A controlled networking exercise focused on checking service accessibility and v
 A proposed security architecture for a hypothetical hybrid-cloud organisation.
 
 **Key activities**
+
 - Identify potential threats using the STRIDE methodology.
 - Develop Zero Trust access-control recommendations.
 - Propose identity, monitoring, and incident-response controls.
@@ -317,80 +334,7 @@ A proposed security architecture for a hypothetical hybrid-cloud organisation.
 
 ---
 
-## 🔬 07 | From Observation to Finding
-
-*A repeatable investigation process built around evidence, validation, and risk reduction.*
-
-```text
-       ┌───────────────────────────┐
-       │  01. Define the Scope     │
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  02. Identify Assets      │
-       │      and Services         │
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  03. Collect Evidence     │
-       │      Traffic / Logs       │
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  04. Analyse Observations │
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  05. Validate Findings    │
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  06. Assess Potential Risk│
-       └─────────────┬─────────────┘
-                     ↓
-       ┌───────────────────────────┐
-       │  07. Document Mitigations │
-       └───────────────────────────┘
-```
-
-My goal is to connect technical observations to defensible conclusions and practical security recommendations.
-
----
-
-## 🧭 08 | Principles Behind My Practice
-
-*Ethical testing, careful analysis, reproducible results, and clear technical documentation.*
-
-| Principle | How I Apply It |
-|---|---|
-| Responsible testing | Work only within authorised environments and agreed scope. |
-| Evidence first | Base conclusions on observable traffic, logs, and test results. |
-| Verification | Validate findings instead of assuming every alert is a confirmed incident. |
-| Risk awareness | Consider impact, exposure, and appropriate defensive measures. |
-| Clear reporting | Record methods, results, limitations, and remediation recommendations. |
-| Continuous learning | Refine skills through practical labs, research, and reflection. |
-
----
-
-## 🗺️ 09 | The Skills I'm Building Next
-
-*My roadmap for strengthening detection, incident response, vulnerability assessment, and cloud security.*
-
-- [x] Explore Linux environments and command-line tools.
-- [x] Practise network scanning and service discovery in lab environments.
-- [x] Capture and inspect network traffic with Wireshark.
-- [x] Develop a Python-based packet analysis application.
-- [x] Explore Suricata event logging and IDS alerts.
-- [ ] Strengthen Wazuh endpoint monitoring and SIEM investigation workflows.
-- [ ] Practise analysing authentication, system, and network logs.
-- [ ] Improve incident triage and security report writing.
-- [ ] Expand vulnerability assessment and remediation documentation.
-- [ ] Explore cloud security monitoring and identity protection.
-- [ ] Build repeatable detection and response exercises in isolated labs.
-
----
-
-## 📈 10 | My Open-Source Footprint
+## 📈 07 | My Open-Source Footprint
 
 *An overview of coding activity and public repositories, where GitHub's statistics services are available.*
 
@@ -405,7 +349,7 @@ My goal is to connect technical observations to defensible conclusions and pract
 
 ---
 
-## 🌐 11 | Beyond the Security Lab
+## 🌐 08 | Beyond the Security Lab
 
 *The technologies and security disciplines I continue to explore.*
 
@@ -423,7 +367,7 @@ I enjoy understanding how software, networks, and infrastructure interact, and h
 
 ---
 
-## 📫 12 | Let's Connect and Exchange Knowledge
+## 📫 09 | Let's Connect and Exchange Knowledge
 
 *Connecting with people who value thoughtful engineering, practical security, and continuous learning.*
 
