@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="assets/00-profile-banner.svg" width="100%" alt="Jessica Edward cybersecurity and red team blue team profile banner"/>
 </p>
 
@@ -7,21 +7,9 @@
 </p>
 
 <p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=jessicaedward1707&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge"
-    alt="GitHub profile views"
-    height="28"
-  />
-  <img
-    src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-C084FC?style=for-the-badge"
-    alt="Cybersecurity focus"
-    height="28"
-  />
-  <img
-    src="https://img.shields.io/badge/PLATFORM-LINUX-8B5CF6?style=for-the-badge&logo=linux&logoColor=white"
-    alt="Linux platform"
-    height="28"
-  />
+  <img src="https://komarev.com/ghpvc/?username=jessicaedward1707&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge" alt="GitHub profile views" height="28"/>
+  <img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-C084FC?style=for-the-badge" alt="Cybersecurity focus" height="28"/>
+  <img src="https://img.shields.io/badge/PLATFORM-LINUX-8B5CF6?style=for-the-badge&logo=linux&logoColor=white" alt="Linux platform" height="28"/>
 </p>
 
 <p align="center">
@@ -141,57 +129,89 @@ My academic background provides a foundation for understanding applications, dat
 
 ## 🧰 05 | Tools in My Security Toolkit
 
-*Technologies I use to explore networks, inspect traffic, and investigate system activity.*
+*Tools I use to assess attack surfaces, analyse network traffic, investigate security events, and develop cybersecurity projects.*
 
-### 🔎 Network Visibility & Assessment
+### 🔴 Red Team | Offensive Security
 
-<p>
-  <img src="https://img.shields.io/badge/Nmap-214478?style=flat-square&logoColor=white" alt="Nmap"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/Scapy-5A189A?style=flat-square&logo=python&logoColor=white" alt="Scapy"/>
-  <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-0066CC?style=flat-square&logo=cisco&logoColor=white" alt="Cisco Packet Tracer"/>
+<p align="left">
+  <img src="https://img.shields.io/badge/Kali_Linux-8B5CF6?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
+  <img src="https://img.shields.io/badge/Nmap-6D28D9?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/Metasploit_Framework-7C3AED?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit Framework"/>
+  <img src="https://img.shields.io/badge/Nikto-9333EA?style=for-the-badge&logo=linux&logoColor=white" alt="Nikto"/>
+  <img src="https://img.shields.io/badge/LinPEAS-6D28D9?style=for-the-badge&logo=linux&logoColor=white" alt="LinPEAS"/>
+  <img src="https://img.shields.io/badge/Aircrack--ng-8B5CF6?style=for-the-badge&logo=linux&logoColor=white" alt="Aircrack-ng"/>
+  <img src="https://img.shields.io/badge/John_the_Ripper-7C3AED?style=for-the-badge&logo=linux&logoColor=white" alt="John the Ripper"/>
+  <img src="https://img.shields.io/badge/Wordlists-9333EA?style=for-the-badge&logo=files&logoColor=white" alt="Wordlists"/>
+  <img src="https://img.shields.io/badge/Nessus-C084FC?style=for-the-badge&logo=tenable&logoColor=white" alt="Nessus"/>
 </p>
 
-- Network discovery and service enumeration
-- Packet capture and protocol inspection
-- Firewall and port accessibility testing
-- Routing, VLANs, and network configuration
+- Network reconnaissance, port scanning, and service enumeration
+- Web server assessment and vulnerability discovery
+- Linux privilege-escalation assessment in authorised lab environments
+- Wireless security testing and password-auditing fundamentals
+- Wordlist-based testing and vulnerability assessment
 
-### 🛡️ Detection, Monitoring & Investigation
+### 🔵 Blue Team | Defensive Security & Monitoring
 
-<p>
-  <img src="https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square&logoColor=white" alt="Suricata"/>
-  <img src="https://img.shields.io/badge/Wazuh-3B82F6?style=flat-square&logoColor=white" alt="Wazuh"/>
-  <img src="https://img.shields.io/badge/Nessus-00A88F?style=flat-square&logoColor=white" alt="Nessus"/>
+<p align="left">
+  <img src="https://img.shields.io/badge/Wazuh-8B5CF6?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh"/>
+  <img src="https://img.shields.io/badge/Suricata-6D28D9?style=for-the-badge&logo=suricata&logoColor=white" alt="Suricata"/>
+  <img src="https://img.shields.io/badge/Wireshark-7C3AED?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
 </p>
 
-- IDS concepts and alert investigation
-- EVE JSON security event inspection
-- SIEM and endpoint-monitoring concepts
-- Vulnerability scanning and findings review
+- Intrusion detection concepts and security alert investigation
+- Network traffic inspection and protocol analysis
+- Reviewing Suricata EVE JSON events and detection output
+- SIEM and endpoint-monitoring fundamentals with Wazuh
+- Investigating suspicious network activity and system events
 
-### 🐧 Systems & Command-Line Operations
+### 💻 Programming | Development & Automation
 
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,bash,powershell,ubuntu,kali,windows,vbox" alt="Operating systems and system tools"/>
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-8B5CF6?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Scapy-6D28D9?style=for-the-badge&logo=python&logoColor=white" alt="Scapy"/>
+  <img src="https://img.shields.io/badge/JavaScript-7C3AED?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-9333EA?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-6D28D9?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/SQLite-8B5CF6?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/SQL-7C3AED?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Git-9333EA?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/VS_Code-C084FC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code"/>
 </p>
 
-- Linux command-line operations
-- Service management and troubleshooting
-- VirtualBox lab environments
+- Python scripting and network packet analysis with Scapy
+- Developing OCTETRA, a network packet analysis application
+- Database operations using SQL and SQLite
+- Web development with HTML, CSS, and JavaScript
+- Version control and project management with Git and GitHub
+
+### 🌐 Network Engineering & Lab Environments
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-8B5CF6?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Bash-6D28D9?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/PowerShell-7C3AED?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/VirtualBox-9333EA?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
+  <img src="https://img.shields.io/badge/Cisco_Packet_Tracer-6D28D9?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Packet Tracer"/>
+  <img src="https://img.shields.io/badge/pandas-8B5CF6?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
+  <img src="https://img.shields.io/badge/Matplotlib-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Power_BI-C084FC?style=for-the-badge&logo=powerbi&logoColor=white" alt="Power BI"/>
+</p>
+
+- Virtualised cybersecurity lab setup and management
+- Network configuration, routing, VLANs, and connectivity testing
+- Linux command-line operations and service troubleshooting
 - Shell scripting and system administration fundamentals
+- Data analysis and visualisation using pandas, Matplotlib, and Power BI
 
-### 💻 Programming & Data Analysis
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,javascript,html,css,mysql,git,github,vscode" alt="Programming and development technologies"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/RED_TEAM-RECON%20%7C%20ASSESSMENT-7C3AED?style=for-the-badge" alt="Red Team — Reconnaissance and Assessment"/>
+  <img src="https://img.shields.io/badge/BLUE_TEAM-DETECTION%20%7C%20INVESTIGATION-8B5CF6?style=for-the-badge" alt="Blue Team — Detection and Investigation"/>
+  <img src="https://img.shields.io/badge/DEVELOPMENT-CODE%20%7C%20AUTOMATION-C084FC?style=for-the-badge" alt="Development — Code and Automation"/>
 </p>
 
-- Python and Scapy for network analysis
-- SQLite, SQL, and database management
-- HTML, CSS, and JavaScript
-- Git and GitHub version control
-- pandas, Matplotlib, and Power BI for data analysis and visualisation
+*I practise security testing in authorised environments and use lab observations to strengthen my understanding of detection, investigation, and defence.*
 
 ---
 
